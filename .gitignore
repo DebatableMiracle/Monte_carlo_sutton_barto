@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# ML/RL Outputs (Models, Logs, Results)
+# Global patterns for checkpoints and logs
+*.zip
+*.pkl
+*.pt
+*.pth
+*.tfevents.*
+events.out.tfevents.*
+*.monitor.csv
+evaluations.npz
+
+# Specific log and model directories
+models/
+tb_logs/
+logs/
+checkpoints/
+
+# User specific run folders identified in commit
+decentralized_models/
+decentralized_v420jan2300/
+feb22_models/
+final_run*/
+models/feb22models/
+models/feb23_models/
+models/final_run*/
+models/v4.5_fixed/
+models/v4.5_normalized/
+models/v4.5run2/
+5x20test/
+decentral/
+eval_results/
+results_feb2/
+src/rl/decentralized_env/models/
+src/rl/decentralized_env/test_run/
+
+# Plotting and Graphs (keep if needed, but usually generated)
+plots/
+tensorboard_graphs*/
+
+# Data files
+*.xlsx
+*.csv
+!.gitkeep
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
